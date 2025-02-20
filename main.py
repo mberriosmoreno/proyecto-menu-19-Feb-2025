@@ -49,8 +49,8 @@ with st.sidebar:
         st.session_state.page = "dashboard"
     if st.button("🤖 Chat Bot", use_container_width=True):
         st.session_state.page = "chatbot"
+        st.markdown("---")  # Línea divisoria para mejorar el diseño
 
-st.markdown("---")  # Línea divisoria para mejorar el diseño
 
 # --- ELEMENTOS COMPARTIDOS EN TODAS LAS PÁGINAS ---
 try:
