@@ -3,9 +3,11 @@ from PIL import Image
 
 # --- CONFIGURACIÓN DE PÁGINAS ---
 def about_me():
+    # Título y subencabezado inicial
     st.title("🌟 Bienvenido a Mi Proyecto Innovador")
     st.subheader("Revolucionando la forma de interactuar con la tecnología")
 
+    # Sección de características principales
     with st.container():
         col1, col2 = st.columns([2, 1])
         with col1:
@@ -20,7 +22,7 @@ def about_me():
             st.image("assets/0. logo.png", caption="Demo interactiva")
 
     # Añadir los objetivos principales
-   st.title("📄 Detalles del Proyecto")
+    st.title("📄 Detalles del Proyecto")
     with st.expander("📌 Objetivos principales", expanded=True):
         st.markdown("""
         - Crear una plataforma innovadora para...
