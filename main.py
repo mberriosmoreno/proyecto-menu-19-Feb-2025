@@ -35,7 +35,7 @@ def chatbot():
 
 # Sidebar con logo y navegación
 with st.sidebar:
-    logo = Image.open("assets/images/logo.png")
+    logo = Image.open("assets/logo.png")
     st.image(logo, width=200)
 
 st.sidebar.markdown("### 🌟 Menú Principal")
