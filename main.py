@@ -54,14 +54,6 @@ with st.sidebar:
         st.session_state.page = "chatbot"
     
 # --- ELEMENTOS COMPARTIDOS EN TODAS LAS PÁGINAS ---
-try:
-    # Usamos 'use_column_width=False' para evitar que ocupe todo el ancho, y especificamos el tamaño con 'width'
-    st.image("assets/0. logo.png", width=100)  # Logo pequeño en la parte superior izquierda
-except Exception:
-    st.warning("No se pudo cargar el logo. Asegúrate de que el archivo '0. logo.png' esté en la carpeta 'assets/'.")
-    
-# Agregar un poco de espacio si es necesario para separar el logo de otros elementos
-st.markdown("<br>", unsafe_allow_html=True)
 
 st.sidebar.markdown("Hecho con ❤️ por [Michael Berríos Moreno](https://michaelberrios.carrd.co/#)")
 
