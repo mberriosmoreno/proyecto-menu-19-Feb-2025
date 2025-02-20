@@ -59,9 +59,6 @@ try:
 except Exception:
     st.warning("No se pudo cargar el logo. Asegúrate de que el archivo '0. logo.png' esté en la carpeta 'assets/'.")
 
- # Línea divisoria después de la última opción
-    st.sidebar.markdown("---")
-
 st.sidebar.markdown("Hecho con ❤️ por [Michael Berríos Moreno](https://michaelberrios.carrd.co/#)")
 
 # --- RENDERIZAR LA PÁGINA SELECCIONADA ---
