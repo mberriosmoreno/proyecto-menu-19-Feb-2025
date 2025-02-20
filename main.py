@@ -52,9 +52,9 @@ with st.sidebar:
 
 # --- ELEMENTOS COMPARTIDOS EN TODAS LAS PÁGINAS ---
 try:
-    st.image("assets/logo.png", use_column_width=True)  # Logo compartido
+    st.image("assets/0. logo.png", use_column_width=True)  # Logo compartido
 except Exception:
-    st.warning("No se pudo cargar el logo. Asegúrate de que el archivo 'logo.png' esté en la carpeta 'assets/'.")
+    st.warning("No se pudo cargar el logo. Asegúrate de que el archivo '0. logo.png' esté en la carpeta 'assets/'.")
 
 st.sidebar.markdown("Hecho con ❤️ por [Michael Berríos Moreno](https://michaelberrios.carrd.co/#)")
 
