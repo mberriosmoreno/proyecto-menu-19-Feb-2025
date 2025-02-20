@@ -56,9 +56,6 @@ def about_me():
 
     st.divider()
 
-# Llamada a la función
-about_me()
-
 def dashboard():
     st.title("📊 Tablero de Datos")
     st.write("Esta es la página del tablero de datos.")
