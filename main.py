@@ -61,7 +61,6 @@ with st.sidebar:
         st.session_state.page = "dashboard"
    # Línea divisoria después de la segunda opción
     st.sidebar.markdown("---")
-
     if st.button("🤖 Chat Bot", use_container_width=True):
         st.session_state.page = "chatbot"
 
