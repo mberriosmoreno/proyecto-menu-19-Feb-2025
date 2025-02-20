@@ -1,2 +1,3 @@
 streamlit  # Versión más reciente de Streamlit
 pandas     # Para manejar datos tabulares en el dashboard
+pillow
