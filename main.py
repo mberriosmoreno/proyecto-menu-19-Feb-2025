@@ -47,14 +47,12 @@ with st.sidebar:
         st.session_state.page = "about_me"
     if st.button("📊 Tablero de Datos", use_container_width=True):
         st.session_state.page = "dashboard"
-    # Línea divisoria después de la segunda opción
-    st.sidebar.markdown("---")
+    # Línea divisoria más delgada después de la segunda opción
+    st.sidebar.markdown("<hr style='border: 1px solid #D3D3D3;'>", unsafe_allow_html=True)
+
     if st.button("🤖 Chat Bot", use_container_width=True):
         st.session_state.page = "chatbot"
     
-    # Línea divisoria después de la última opción del menú
-    st.sidebar.markdown("---")
-
 # --- ELEMENTOS COMPARTIDOS EN TODAS LAS PÁGINAS ---
 try:
     st.image("assets/0. logo.png", use_container_width=True)  # Logo compartido
