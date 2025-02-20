@@ -18,40 +18,7 @@ def about_me():
             """)
         with col2:
             st.image("assets/0. logo.png", caption="Demo interactiva")
-
-with st.expander("📌 Objetivos principales", expanded=True):
-    st.markdown("""
-    - Crear una plataforma innovadora para...
-    - Implementar algoritmos de machine learning...
-    - Proporcionar una experiencia de usuario excepcional
-    """)
-
-st.header("🚀 Tecnologías utilizadas")
-cols = st.columns(3)
-with cols[0]:
-    st.markdown("### Frontend")
-    st.code("""
-    - Streamlit
-    - React
-    - Tailwind CSS
-    """)
-
-with cols[1]:
-    st.markdown("### Backend")
-    st.code("""
-    - Python
-    - FastAPI
-    - PostgreSQL
-    """)
-
-with cols[2]:
-    st.markdown("### IA/ML")
-    st.code("""
-    - TensorFlow
-    - PyTorch
-    - OpenAI API
-    """)
-
+        
 def dashboard():
     st.title("📊 Tablero de Datos")
     st.write("Esta es la página del tablero de datos.")
