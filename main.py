@@ -45,11 +45,13 @@ st.sidebar.markdown("### 🌟 Menú Principal")
 with st.sidebar:
     if st.button("🏠 Acerca de Mí", use_container_width=True):
         st.session_state.page = "about_me"
-        st.markdown("---")  # Línea divisoria para mejorar el diseño
     if st.button("📊 Tablero de Datos", use_container_width=True):
         st.session_state.page = "dashboard"
     if st.button("🤖 Chat Bot", use_container_width=True):
         st.session_state.page = "chatbot"
+    
+    # Línea divisoria después de la última opción del menú
+    st.sidebar.markdown("---")
 
 # --- ELEMENTOS COMPARTIDOS EN TODAS LAS PÁGINAS ---
 try:
