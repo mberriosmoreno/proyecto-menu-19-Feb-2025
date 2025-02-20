@@ -3,11 +3,26 @@ from PIL import Image
 
 # --- CONFIGURACIÓN DE PÁGINAS ---
 def about_me():
-    st.title("🏠 Acerca de Mí")
-    st.write("""
-    Esta es la página "Acerca de Mí". Aquí puedes incluir información sobre ti,
-    tu proyecto o cualquier otro detalle relevante.
-    """)
+    st.title("🌟 Bienvenido a Mi Proyecto Innovador")
+    st.subheader("Revolucionando la forma de interactuar con la tecnología")
+
+    with st.container():
+        col1, col2 = st.columns([2, 1])
+        with col1:
+            st.markdown("""
+            ### Características principales
+            - ✅ Interfaz moderna e intuitiva
+            - 📈 Analíticas en tiempo real
+            - 🤖 Integración con IA
+            - 🔒 Seguridad de primer nivel
+            """)
+        with col2:
+            st.image("assets/images/demo.gif", caption="Demo interactiva")
+
+    st.divider()
+
+# Llamada a la función
+about_me()
     
 def dashboard():
     st.title("📊 Tablero de Datos")
