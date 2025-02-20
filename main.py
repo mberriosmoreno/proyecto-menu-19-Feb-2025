@@ -17,7 +17,7 @@ def about_me():
             - 🔒 Seguridad de primer nivel
             """)
         with col2:
-            st.image("assets/images/demo.gif", caption="Demo interactiva")
+            st.image("assets/0. logo.png", caption="Demo interactiva")
 
     st.divider()
 
