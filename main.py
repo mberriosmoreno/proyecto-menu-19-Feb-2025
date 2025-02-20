@@ -21,8 +21,6 @@ def about_me():
 
     st.divider()
 
-st.title("📄 Detalles del Proyecto")
-
 with st.expander("📌 Objetivos principales", expanded=True):
     st.markdown("""
     - Crear una plataforma innovadora para...
