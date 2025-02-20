@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 
 # --- CONFIGURACIÓN DE PÁGINAS ---
 def about_me():
