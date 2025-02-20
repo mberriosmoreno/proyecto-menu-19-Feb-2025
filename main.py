@@ -47,8 +47,8 @@ with st.sidebar:
         st.session_state.page = "about_me"
     if st.button("📊 Tablero de Datos", use_container_width=True):
         st.session_state.page = "dashboard"
-    # Línea divisoria más delgada después de la segunda opción
-    st.sidebar.markdown("<hr style='border: 1px solid #D3D3D3;'>", unsafe_allow_html=True)
+   # Línea divisoria después de la segunda opción
+    st.sidebar.markdown("---")
 
     if st.button("🤖 Chat Bot", use_container_width=True):
         st.session_state.page = "chatbot"
@@ -58,6 +58,9 @@ try:
     st.image("assets/0. logo.png", use_container_width=True)  # Logo compartido
 except Exception:
     st.warning("No se pudo cargar el logo. Asegúrate de que el archivo '0. logo.png' esté en la carpeta 'assets/'.")
+
+ # Línea divisoria después de la última opción
+    st.sidebar.markdown("---")
 
 st.sidebar.markdown("Hecho con ❤️ por [Michael Berríos Moreno](https://michaelberrios.carrd.co/#)")
 
