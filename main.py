@@ -19,8 +19,6 @@ with st.container():
     with col2:
         st.image("assets/images/demo.gif", caption="Demo interactiva")
 
-st.divider()
-
 def dashboard():
     st.title("📊 Tablero de Datos")
     st.write("Esta es la página del tablero de datos.")
