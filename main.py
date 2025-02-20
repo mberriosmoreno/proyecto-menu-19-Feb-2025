@@ -50,14 +50,13 @@ with st.sidebar:
     if st.button("🤖 Chat Bot", use_container_width=True):
         st.session_state.page = "chatbot"
 
-        st.markdown("---")  # Línea divisoria para mejorar el diseño
-
-
 # --- ELEMENTOS COMPARTIDOS EN TODAS LAS PÁGINAS ---
 try:
     st.image("assets/0. logo.png", use_container_width=True)  # Logo compartido
 except Exception:
     st.warning("No se pudo cargar el logo. Asegúrate de que el archivo '0. logo.png' esté en la carpeta 'assets/'.")
+
+st.markdown("---")  # Línea divisoria para mejorar el diseño
 
 st.sidebar.markdown("Hecho con ❤️ por [Michael Berríos Moreno](https://michaelberrios.carrd.co/#)")
 
