@@ -51,7 +51,7 @@ with st.sidebar:
         st.session_state.page = "chatbot"
     
     # Línea divisoria después de la última opción del menú
-    st.sidebar.markdown("--")
+    st.sidebar.markdown("----")
 
 # --- ELEMENTOS COMPARTIDOS EN TODAS LAS PÁGINAS ---
 try:
