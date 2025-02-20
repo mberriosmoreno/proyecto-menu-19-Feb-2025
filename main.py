@@ -22,7 +22,7 @@ def about_me():
             st.image("assets/0. logo.png", caption="Demo interactiva")
 
     # Añadir los objetivos principales
-    st.subheader("📄 Detalles del Proyecto")
+    st.header("📄 Detalles del Proyecto")
     with st.expander("📌 Objetivos principales", expanded=True):
         st.markdown("""
         - Crear una plataforma innovadora para...
