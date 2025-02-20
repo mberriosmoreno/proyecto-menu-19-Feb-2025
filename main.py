@@ -45,7 +45,7 @@ st.sidebar.markdown("### 🌟 Menú Principal")
 with st.sidebar:
     if st.button("🏠 Acerca de Mí", use_container_width=True):
         st.session_state.page = "about_me"
-         st.sidebar.markdown("---")
+        st.sidebar.markdown("---")
     if st.button("📊 Tablero de Datos", use_container_width=True):
         st.session_state.page = "dashboard"
     if st.button("🤖 Chat Bot", use_container_width=True):
