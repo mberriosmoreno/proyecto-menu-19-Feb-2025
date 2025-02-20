@@ -32,6 +32,12 @@ def chatbot():
         st.write(f"El bot responde: ¡Hola! Has escrito '{user_input}'.")
 
 # --- MENÚ FIJO CON BOTONES ESTILIZADOS ---
+
+# Sidebar con logo y navegación
+with st.sidebar:
+    logo = Image.open("assets/images/logo.png")
+    st.image(logo, width=200)
+
 st.sidebar.markdown("### 🌟 Menú Principal")
 
 # Contenedor para los botones
