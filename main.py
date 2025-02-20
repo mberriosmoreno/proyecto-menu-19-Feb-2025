@@ -19,8 +19,6 @@ def about_me():
         with col2:
             st.image("assets/0. logo.png", caption="Demo interactiva")
 
-    st.divider()
-
 with st.expander("📌 Objetivos principales", expanded=True):
     st.markdown("""
     - Crear una plataforma innovadora para...
