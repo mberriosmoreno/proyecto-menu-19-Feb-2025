@@ -65,8 +65,6 @@ with st.sidebar:
     if st.button("🤖 Chat Bot", use_container_width=True):
         st.session_state.page = "chatbot"
 
- st.divider()
-
 # --- ELEMENTOS COMPARTIDOS EN TODAS LAS PÁGINAS ---
 
 st.sidebar.markdown("Hecho con ❤️ por [Michael Berríos Moreno](https://michaelberrios.carrd.co/#)")
