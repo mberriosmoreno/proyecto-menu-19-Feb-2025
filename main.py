@@ -20,9 +20,6 @@ def about_me():
             st.image("assets/0. logo.png", caption="Demo interactiva")
 
     st.divider()
-
-# Llamada a la función
-about_me()
     
 def dashboard():
     st.title("📊 Tablero de Datos")
